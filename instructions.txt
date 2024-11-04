@@ -1,0 +1,20 @@
+Project Description:
+This project explores time series forecasting techniques using statsmodels (ARIMA model) and Facebook's Prophet, incorporating corrections to ensure model accuracy as outlined in a KDnuggets tutorial.
+
+Instructions-
+Data Setup:
+
+Download the dc.csv dataset from Kaggle and upload it to Google Colab for analysis.
+Library Installation and Import:
+
+Install the necessary libraries, including Prophet, in Colab using the appropriate command.
+Time Series Modeling:
+
+Implement the ARIMA model specifically on the close_USD column from the dataset.
+Adjust the installation method for Prophet to match the Colab environment.
+Evaluation Metrics:
+
+Use mean_absolute_error and mean_squared_error from sklearn to evaluate the model, focusing on the close_USD column for accurate comparisons.
+Reference:
+
+The implementation follows guidelines from the KDnuggets article on time series forecasting with Statsmodels and Prophet.
